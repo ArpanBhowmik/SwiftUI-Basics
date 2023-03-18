@@ -10,12 +10,12 @@ import SwiftUI
 struct Icons: View {
     var body: some View {
         Image(systemName: "heart.fill")
-           // .renderingMode(.original)
+        // .renderingMode(.original)
             .resizable()
-            //.aspectRatio(contentMode: .fit)
+        //.aspectRatio(contentMode: .fit)
             .scaledToFill()
-            //.font(.largeTitle)
-            //font(.system(size: 200))
+        //.font(.largeTitle)
+        //font(.system(size: 200))
             .foregroundColor(.green)
             .frame(width: 200, height: 200)
             .clipped()

@@ -14,7 +14,7 @@ struct ColorBasics: View {
                 //Color.primary
                 //Color(uiColor: .secondarySystemBackground)
                 Color("CustomColor")
-            
+                
             )
             .frame(width: 300, height: 200)
             .shadow(color: Color("CustomColor").opacity(0.9), radius: 20, x: 0, y: 0)

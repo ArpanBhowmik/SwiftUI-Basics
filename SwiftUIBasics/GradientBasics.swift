@@ -11,11 +11,11 @@ struct GradientBasics: View {
     var body: some View {
         RoundedRectangle(cornerRadius: 25)
             .fill(
-//                LinearGradient(
-//                    colors: [.red, .blue],
-//                    startPoint: .leading,
-//                    endPoint: .trailing
-//                )
+                //                LinearGradient(
+                //                    colors: [.red, .blue],
+                //                    startPoint: .leading,
+                //                    endPoint: .trailing
+                //                )
                 
                 RadialGradient(colors: [.red, .blue], center: .center, startRadius: 0, endRadius: 200)
             )

@@ -9,16 +9,16 @@ import SwiftUI
 
 struct Shapes: View {
     var body: some View {
-//        Circle()
-//            .stroke(Color.red, lineWidth: 20)
-//            .stroke(Color.orange, style: StrokeStyle(lineWidth: 20, lineCap: .round, dash: [50, 30]))
-//            .trim(from: 0.2, to: 1)
-//            .stroke(Color.purple, lineWidth: 50)
-//            .padding()
+        //        Circle()
+        //            .stroke(Color.red, lineWidth: 20)
+        //            .stroke(Color.orange, style: StrokeStyle(lineWidth: 20, lineCap: .round, dash: [50, 30]))
+        //            .trim(from: 0.2, to: 1)
+        //            .stroke(Color.purple, lineWidth: 50)
+        //            .padding()
         
-       // Ellipse()
-       // Capsule(style: .continuous)
-       // Rectangle()
+        // Ellipse()
+        // Capsule(style: .continuous)
+        // Rectangle()
         RoundedRectangle(cornerRadius: 20)
             .foregroundColor(.purple)
             .frame(width: 300, height: 200)
