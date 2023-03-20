@@ -25,7 +25,7 @@ struct ScrollViewTest: View {
                     ScrollView(.horizontal, showsIndicators: false) {
                         LazyHStack {
                             ForEach(0..<10) { _ in
-                                RoundedRectangle(cornerRadius: 25)
+                                RoundedRectangle(cornerRadius: 30)
                                     .fill(.white)
                                     .frame(width: 200, height: 150)
                                     .shadow(radius: 10)

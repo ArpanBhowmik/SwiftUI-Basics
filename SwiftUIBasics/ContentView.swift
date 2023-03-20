@@ -9,15 +9,27 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("ASDFGHJH!")
-            .padding()
-            .background(.red)
-            .padding()
-            .background(.blue)
-            .padding()
-            .background(.green)
-            .padding()
-            .background(.yellow)
+        HStack(spacing: 0) {
+            Circle()
+                .fill(.blue)
+                .frame(width: 40, height: 40)
+            
+            Rectangle()
+                .fill(.blue)
+                .frame(width: 50, height: 2)
+            
+            Circle()
+                .fill(.blue)
+                .frame(width: 40, height: 40)
+            
+            Rectangle()
+                .fill(.blue)
+                .frame(width: 50, height: 2)
+            
+            Circle()
+                .fill(.blue)
+                .frame(width: 40, height: 40)
+        }
     }
 }
 
