@@ -26,6 +26,8 @@
 		CFCC8B6E29C5F3680085F43D /* FrameAndAlignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCC8B6D29C5F3680085F43D /* FrameAndAlignment.swift */; };
 		CFCC8B7029C5F9030085F43D /* BackgroundsAndOverlays.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCC8B6F29C5F9030085F43D /* BackgroundsAndOverlays.swift */; };
 		CFCC8B7229C60FB00085F43D /* Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCC8B7129C60FB00085F43D /* Stacks.swift */; };
+		CFD285D729CC9CD500095E82 /* Popover.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD285D629CC9CD500095E82 /* Popover.swift */; };
+		CFD285D929CCB07900095E82 /* NavigationBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD285D829CCB07900095E82 /* NavigationBasics.swift */; };
 		CFDD908229C6C8E400609396 /* PaddingAndSpacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDD908129C6C8E400609396 /* PaddingAndSpacer.swift */; };
 		CFDD908429C6D19F00609396 /* Spacers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDD908329C6D19F00609396 /* Spacers.swift */; };
 		CFF8418629CB550F00601E40 /* AnimationBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF8418029CB550E00601E40 /* AnimationBasics.swift */; };
@@ -34,6 +36,7 @@
 		CFF8418929CB550F00601E40 /* BindingPropertyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF8418329CB550E00601E40 /* BindingPropertyWrapper.swift */; };
 		CFF8418A29CB550F00601E40 /* ExtractSubViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF8418429CB550F00601E40 /* ExtractSubViews.swift */; };
 		CFF8418B29CB550F00601E40 /* AnimationCurveAndTiming.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF8418529CB550F00601E40 /* AnimationCurveAndTiming.swift */; };
+		CFF8418D29CB56DA00601E40 /* Sheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF8418C29CB56DA00601E40 /* Sheets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +60,8 @@
 		CFCC8B6D29C5F3680085F43D /* FrameAndAlignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameAndAlignment.swift; sourceTree = "<group>"; };
 		CFCC8B6F29C5F9030085F43D /* BackgroundsAndOverlays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundsAndOverlays.swift; sourceTree = "<group>"; };
 		CFCC8B7129C60FB00085F43D /* Stacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stacks.swift; sourceTree = "<group>"; };
+		CFD285D629CC9CD500095E82 /* Popover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popover.swift; sourceTree = "<group>"; };
+		CFD285D829CCB07900095E82 /* NavigationBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBasics.swift; sourceTree = "<group>"; };
 		CFDD908129C6C8E400609396 /* PaddingAndSpacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingAndSpacer.swift; sourceTree = "<group>"; };
 		CFDD908329C6D19F00609396 /* Spacers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacers.swift; sourceTree = "<group>"; };
 		CFF8418029CB550E00601E40 /* AnimationBasics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationBasics.swift; sourceTree = "<group>"; };
@@ -65,6 +70,7 @@
 		CFF8418329CB550E00601E40 /* BindingPropertyWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindingPropertyWrapper.swift; sourceTree = "<group>"; };
 		CFF8418429CB550F00601E40 /* ExtractSubViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtractSubViews.swift; sourceTree = "<group>"; };
 		CFF8418529CB550F00601E40 /* AnimationCurveAndTiming.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationCurveAndTiming.swift; sourceTree = "<group>"; };
+		CFF8418C29CB56DA00601E40 /* Sheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +108,8 @@
 				CFF8418529CB550F00601E40 /* AnimationCurveAndTiming.swift */,
 				CF1D2E6429C4B1E800373623 /* SwiftUIBasicsApp.swift */,
 				CF1D2E6629C4B1E800373623 /* ContentView.swift */,
-				CF1D2E6829C4B1EA00373623 /* Assets.xcassets */,
 				CFF8418429CB550F00601E40 /* ExtractSubViews.swift */,
 				CFF8418229CB550E00601E40 /* ExtractedFunctions.swift */,
-				CF1D2E6A29C4B1EA00373623 /* Preview Content */,
 				CF1D2E7229C4B2B300373623 /* TextBasics.swift */,
 				CFCC6DBF29C4CC2E00EA079A /* Shapes.swift */,
 				CF76FDF829C56BB90063481C /* ColorBasics.swift */,
@@ -123,6 +127,11 @@
 				CF818BE629C8CD7B000BB322 /* SafeAreas.swift */,
 				CF84B0BF29C9F5B100B24795 /* Grids.swift */,
 				CF84B0C129CA10B100B24795 /* StateObserver.swift */,
+				CFF8418C29CB56DA00601E40 /* Sheets.swift */,
+				CF1D2E6829C4B1EA00373623 /* Assets.xcassets */,
+				CF1D2E6A29C4B1EA00373623 /* Preview Content */,
+				CFD285D629CC9CD500095E82 /* Popover.swift */,
+				CFD285D829CCB07900095E82 /* NavigationBasics.swift */,
 			);
 			path = SwiftUIBasics;
 			sourceTree = "<group>";
@@ -216,7 +225,10 @@
 				CFCC8B7029C5F9030085F43D /* BackgroundsAndOverlays.swift in Sources */,
 				CF1D2E6729C4B1E800373623 /* ContentView.swift in Sources */,
 				CF84B0C029C9F5B100B24795 /* Grids.swift in Sources */,
+				CFD285D929CCB07900095E82 /* NavigationBasics.swift in Sources */,
+				CFD285D729CC9CD500095E82 /* Popover.swift in Sources */,
 				CFF8418B29CB550F00601E40 /* AnimationCurveAndTiming.swift in Sources */,
+				CFF8418D29CB56DA00601E40 /* Sheets.swift in Sources */,
 				CF818BE529C8C518000BB322 /* Buttons.swift in Sources */,
 				CFF8418829CB550F00601E40 /* ExtractedFunctions.swift in Sources */,
 				CF76FDF929C56BB90063481C /* ColorBasics.swift in Sources */,
