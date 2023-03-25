@@ -7,11 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF0A3B8529CF5E7E00EFDB96 /* TextEditorBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0A3B8429CF5E7E00EFDB96 /* TextEditorBasics.swift */; };
+		CF0A3B8729CF668E00EFDB96 /* ToogleButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0A3B8629CF668E00EFDB96 /* ToogleButtons.swift */; };
 		CF1D2E6529C4B1E800373623 /* SwiftUIBasicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1D2E6429C4B1E800373623 /* SwiftUIBasicsApp.swift */; };
 		CF1D2E6729C4B1E800373623 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1D2E6629C4B1E800373623 /* ContentView.swift */; };
 		CF1D2E6929C4B1EA00373623 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF1D2E6829C4B1EA00373623 /* Assets.xcassets */; };
 		CF1D2E6C29C4B1EA00373623 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF1D2E6B29C4B1EA00373623 /* Preview Assets.xcassets */; };
 		CF1D2E7329C4B2B300373623 /* TextBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1D2E7229C4B2B300373623 /* TextBasics.swift */; };
+		CF321D0F29CEBC060092BD0F /* Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF321D0D29CEBC060092BD0F /* Alerts.swift */; };
+		CF321D1029CEBC060092BD0F /* AddDeleteEditMoveInList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF321D0E29CEBC060092BD0F /* AddDeleteEditMoveInList.swift */; };
+		CF321D1229CEBE0B0092BD0F /* ReusableActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF321D1129CEBE0B0092BD0F /* ReusableActionSheet.swift */; };
+		CF321D1429CEE36E0092BD0F /* ContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF321D1329CEE36E0092BD0F /* ContextMenu.swift */; };
 		CF76FDF929C56BB90063481C /* ColorBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF76FDF829C56BB90063481C /* ColorBasics.swift */; };
 		CF76FDFB29C573400063481C /* GradientBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF76FDFA29C573400063481C /* GradientBasics.swift */; };
 		CF76FDFD29C57B330063481C /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF76FDFC29C57B330063481C /* Icons.swift */; };
@@ -28,6 +34,7 @@
 		CFCC8B7229C60FB00085F43D /* Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCC8B7129C60FB00085F43D /* Stacks.swift */; };
 		CFD285D729CC9CD500095E82 /* Popover.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD285D629CC9CD500095E82 /* Popover.swift */; };
 		CFD285D929CCB07900095E82 /* NavigationBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD285D829CCB07900095E82 /* NavigationBasics.swift */; };
+		CFD5546229CF470800329E14 /* TextFieldBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD5546129CF470800329E14 /* TextFieldBasics.swift */; };
 		CFDD908229C6C8E400609396 /* PaddingAndSpacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDD908129C6C8E400609396 /* PaddingAndSpacer.swift */; };
 		CFDD908429C6D19F00609396 /* Spacers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDD908329C6D19F00609396 /* Spacers.swift */; };
 		CFF8418629CB550F00601E40 /* AnimationBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF8418029CB550E00601E40 /* AnimationBasics.swift */; };
@@ -40,12 +47,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF0A3B8429CF5E7E00EFDB96 /* TextEditorBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorBasics.swift; sourceTree = "<group>"; };
+		CF0A3B8629CF668E00EFDB96 /* ToogleButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToogleButtons.swift; sourceTree = "<group>"; };
 		CF1D2E6129C4B1E800373623 /* SwiftUIBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF1D2E6429C4B1E800373623 /* SwiftUIBasicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBasicsApp.swift; sourceTree = "<group>"; };
 		CF1D2E6629C4B1E800373623 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CF1D2E6829C4B1EA00373623 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF1D2E6B29C4B1EA00373623 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CF1D2E7229C4B2B300373623 /* TextBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBasics.swift; sourceTree = "<group>"; };
+		CF321D0D29CEBC060092BD0F /* Alerts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alerts.swift; sourceTree = "<group>"; };
+		CF321D0E29CEBC060092BD0F /* AddDeleteEditMoveInList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDeleteEditMoveInList.swift; sourceTree = "<group>"; };
+		CF321D1129CEBE0B0092BD0F /* ReusableActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableActionSheet.swift; sourceTree = "<group>"; };
+		CF321D1329CEE36E0092BD0F /* ContextMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenu.swift; sourceTree = "<group>"; };
 		CF76FDF829C56BB90063481C /* ColorBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBasics.swift; sourceTree = "<group>"; };
 		CF76FDFA29C573400063481C /* GradientBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBasics.swift; sourceTree = "<group>"; };
 		CF76FDFC29C57B330063481C /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
@@ -62,6 +75,7 @@
 		CFCC8B7129C60FB00085F43D /* Stacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stacks.swift; sourceTree = "<group>"; };
 		CFD285D629CC9CD500095E82 /* Popover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popover.swift; sourceTree = "<group>"; };
 		CFD285D829CCB07900095E82 /* NavigationBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBasics.swift; sourceTree = "<group>"; };
+		CFD5546129CF470800329E14 /* TextFieldBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldBasics.swift; sourceTree = "<group>"; };
 		CFDD908129C6C8E400609396 /* PaddingAndSpacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingAndSpacer.swift; sourceTree = "<group>"; };
 		CFDD908329C6D19F00609396 /* Spacers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacers.swift; sourceTree = "<group>"; };
 		CFF8418029CB550E00601E40 /* AnimationBasics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationBasics.swift; sourceTree = "<group>"; };
@@ -103,6 +117,8 @@
 		CF1D2E6329C4B1E800373623 /* SwiftUIBasics */ = {
 			isa = PBXGroup;
 			children = (
+				CF321D0E29CEBC060092BD0F /* AddDeleteEditMoveInList.swift */,
+				CF321D0D29CEBC060092BD0F /* Alerts.swift */,
 				CFF8418029CB550E00601E40 /* AnimationBasics.swift */,
 				CFF8418329CB550E00601E40 /* BindingPropertyWrapper.swift */,
 				CFF8418529CB550F00601E40 /* AnimationCurveAndTiming.swift */,
@@ -128,10 +144,15 @@
 				CF84B0BF29C9F5B100B24795 /* Grids.swift */,
 				CF84B0C129CA10B100B24795 /* StateObserver.swift */,
 				CFF8418C29CB56DA00601E40 /* Sheets.swift */,
+				CF321D1129CEBE0B0092BD0F /* ReusableActionSheet.swift */,
+				CF321D1329CEE36E0092BD0F /* ContextMenu.swift */,
 				CF1D2E6829C4B1EA00373623 /* Assets.xcassets */,
 				CF1D2E6A29C4B1EA00373623 /* Preview Content */,
 				CFD285D629CC9CD500095E82 /* Popover.swift */,
 				CFD285D829CCB07900095E82 /* NavigationBasics.swift */,
+				CFD5546129CF470800329E14 /* TextFieldBasics.swift */,
+				CF0A3B8429CF5E7E00EFDB96 /* TextEditorBasics.swift */,
+				CF0A3B8629CF668E00EFDB96 /* ToogleButtons.swift */,
 			);
 			path = SwiftUIBasics;
 			sourceTree = "<group>";
@@ -221,12 +242,15 @@
 				CFF8418929CB550F00601E40 /* BindingPropertyWrapper.swift in Sources */,
 				CFF8418729CB550F00601E40 /* TransitionsBasics.swift in Sources */,
 				CF76FDFD29C57B330063481C /* Icons.swift in Sources */,
+				CF321D1429CEE36E0092BD0F /* ContextMenu.swift in Sources */,
 				CFCC8B7229C60FB00085F43D /* Stacks.swift in Sources */,
 				CFCC8B7029C5F9030085F43D /* BackgroundsAndOverlays.swift in Sources */,
 				CF1D2E6729C4B1E800373623 /* ContentView.swift in Sources */,
 				CF84B0C029C9F5B100B24795 /* Grids.swift in Sources */,
 				CFD285D929CCB07900095E82 /* NavigationBasics.swift in Sources */,
 				CFD285D729CC9CD500095E82 /* Popover.swift in Sources */,
+				CF321D1029CEBC060092BD0F /* AddDeleteEditMoveInList.swift in Sources */,
+				CF321D0F29CEBC060092BD0F /* Alerts.swift in Sources */,
 				CFF8418B29CB550F00601E40 /* AnimationCurveAndTiming.swift in Sources */,
 				CFF8418D29CB56DA00601E40 /* Sheets.swift in Sources */,
 				CF818BE529C8C518000BB322 /* Buttons.swift in Sources */,
@@ -235,8 +259,12 @@
 				CFAADF3629C74A7100D778E3 /* ScrollView.swift in Sources */,
 				CF1D2E6529C4B1E800373623 /* SwiftUIBasicsApp.swift in Sources */,
 				CF76FDFF29C583880063481C /* ImageBasics.swift in Sources */,
+				CF321D1229CEBE0B0092BD0F /* ReusableActionSheet.swift in Sources */,
+				CF0A3B8729CF668E00EFDB96 /* ToogleButtons.swift in Sources */,
+				CF0A3B8529CF5E7E00EFDB96 /* TextEditorBasics.swift in Sources */,
 				CF84B0C229CA10B100B24795 /* StateObserver.swift in Sources */,
 				CF1D2E7329C4B2B300373623 /* TextBasics.swift in Sources */,
+				CFD5546229CF470800329E14 /* TextFieldBasics.swift in Sources */,
 				CF76FDFB29C573400063481C /* GradientBasics.swift in Sources */,
 				CFF8418A29CB550F00601E40 /* ExtractSubViews.swift in Sources */,
 				CFCC6DC029C4CC2E00EA079A /* Shapes.swift in Sources */,
