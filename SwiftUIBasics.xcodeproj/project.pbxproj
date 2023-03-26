@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF05DFCB29D000B0005F58BE /* Pickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF05DFCA29D000B0005F58BE /* Pickers.swift */; };
+		CF05DFCD29D009EC005F58BE /* ColorPickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF05DFCC29D009EC005F58BE /* ColorPickers.swift */; };
+		CF05DFCF29D013EA005F58BE /* DatePickerSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF05DFCE29D013EA005F58BE /* DatePickerSwiftUI.swift */; };
 		CF0A3B8529CF5E7E00EFDB96 /* TextEditorBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0A3B8429CF5E7E00EFDB96 /* TextEditorBasics.swift */; };
 		CF0A3B8729CF668E00EFDB96 /* ToogleButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0A3B8629CF668E00EFDB96 /* ToogleButtons.swift */; };
 		CF1D2E6529C4B1E800373623 /* SwiftUIBasicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1D2E6429C4B1E800373623 /* SwiftUIBasicsApp.swift */; };
@@ -47,6 +50,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF05DFCA29D000B0005F58BE /* Pickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pickers.swift; sourceTree = "<group>"; };
+		CF05DFCC29D009EC005F58BE /* ColorPickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickers.swift; sourceTree = "<group>"; };
+		CF05DFCE29D013EA005F58BE /* DatePickerSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerSwiftUI.swift; sourceTree = "<group>"; };
 		CF0A3B8429CF5E7E00EFDB96 /* TextEditorBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorBasics.swift; sourceTree = "<group>"; };
 		CF0A3B8629CF668E00EFDB96 /* ToogleButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToogleButtons.swift; sourceTree = "<group>"; };
 		CF1D2E6129C4B1E800373623 /* SwiftUIBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -146,13 +152,16 @@
 				CFF8418C29CB56DA00601E40 /* Sheets.swift */,
 				CF321D1129CEBE0B0092BD0F /* ReusableActionSheet.swift */,
 				CF321D1329CEE36E0092BD0F /* ContextMenu.swift */,
-				CF1D2E6829C4B1EA00373623 /* Assets.xcassets */,
-				CF1D2E6A29C4B1EA00373623 /* Preview Content */,
 				CFD285D629CC9CD500095E82 /* Popover.swift */,
 				CFD285D829CCB07900095E82 /* NavigationBasics.swift */,
 				CFD5546129CF470800329E14 /* TextFieldBasics.swift */,
 				CF0A3B8429CF5E7E00EFDB96 /* TextEditorBasics.swift */,
 				CF0A3B8629CF668E00EFDB96 /* ToogleButtons.swift */,
+				CF05DFCA29D000B0005F58BE /* Pickers.swift */,
+				CF05DFCC29D009EC005F58BE /* ColorPickers.swift */,
+				CF1D2E6829C4B1EA00373623 /* Assets.xcassets */,
+				CF1D2E6A29C4B1EA00373623 /* Preview Content */,
+				CF05DFCE29D013EA005F58BE /* DatePickerSwiftUI.swift */,
 			);
 			path = SwiftUIBasics;
 			sourceTree = "<group>";
@@ -249,6 +258,7 @@
 				CF84B0C029C9F5B100B24795 /* Grids.swift in Sources */,
 				CFD285D929CCB07900095E82 /* NavigationBasics.swift in Sources */,
 				CFD285D729CC9CD500095E82 /* Popover.swift in Sources */,
+				CF05DFCF29D013EA005F58BE /* DatePickerSwiftUI.swift in Sources */,
 				CF321D1029CEBC060092BD0F /* AddDeleteEditMoveInList.swift in Sources */,
 				CF321D0F29CEBC060092BD0F /* Alerts.swift in Sources */,
 				CFF8418B29CB550F00601E40 /* AnimationCurveAndTiming.swift in Sources */,
@@ -257,6 +267,7 @@
 				CFF8418829CB550F00601E40 /* ExtractedFunctions.swift in Sources */,
 				CF76FDF929C56BB90063481C /* ColorBasics.swift in Sources */,
 				CFAADF3629C74A7100D778E3 /* ScrollView.swift in Sources */,
+				CF05DFCD29D009EC005F58BE /* ColorPickers.swift in Sources */,
 				CF1D2E6529C4B1E800373623 /* SwiftUIBasicsApp.swift in Sources */,
 				CF76FDFF29C583880063481C /* ImageBasics.swift in Sources */,
 				CF321D1229CEBE0B0092BD0F /* ReusableActionSheet.swift in Sources */,
@@ -269,6 +280,7 @@
 				CFF8418A29CB550F00601E40 /* ExtractSubViews.swift in Sources */,
 				CFCC6DC029C4CC2E00EA079A /* Shapes.swift in Sources */,
 				CFF8418629CB550F00601E40 /* AnimationBasics.swift in Sources */,
+				CF05DFCB29D000B0005F58BE /* Pickers.swift in Sources */,
 				CF818BE729C8CD7B000BB322 /* SafeAreas.swift in Sources */,
 				CFDD908429C6D19F00609396 /* Spacers.swift in Sources */,
 			);
