@@ -21,6 +21,8 @@
 		CF321D1029CEBC060092BD0F /* AddDeleteEditMoveInList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF321D0E29CEBC060092BD0F /* AddDeleteEditMoveInList.swift */; };
 		CF321D1229CEBE0B0092BD0F /* ReusableActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF321D1129CEBE0B0092BD0F /* ReusableActionSheet.swift */; };
 		CF321D1429CEE36E0092BD0F /* ContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF321D1329CEE36E0092BD0F /* ContextMenu.swift */; };
+		CF4BF39429D1D04A00C521A0 /* SliderSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4BF39329D1D04A00C521A0 /* SliderSwiftUI.swift */; };
+		CF4BF39629D1D70D00C521A0 /* Steppers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4BF39529D1D70D00C521A0 /* Steppers.swift */; };
 		CF76FDF929C56BB90063481C /* ColorBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF76FDF829C56BB90063481C /* ColorBasics.swift */; };
 		CF76FDFB29C573400063481C /* GradientBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF76FDFA29C573400063481C /* GradientBasics.swift */; };
 		CF76FDFD29C57B330063481C /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF76FDFC29C57B330063481C /* Icons.swift */; };
@@ -65,6 +67,8 @@
 		CF321D0E29CEBC060092BD0F /* AddDeleteEditMoveInList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDeleteEditMoveInList.swift; sourceTree = "<group>"; };
 		CF321D1129CEBE0B0092BD0F /* ReusableActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableActionSheet.swift; sourceTree = "<group>"; };
 		CF321D1329CEE36E0092BD0F /* ContextMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenu.swift; sourceTree = "<group>"; };
+		CF4BF39329D1D04A00C521A0 /* SliderSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderSwiftUI.swift; sourceTree = "<group>"; };
+		CF4BF39529D1D70D00C521A0 /* Steppers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Steppers.swift; sourceTree = "<group>"; };
 		CF76FDF829C56BB90063481C /* ColorBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBasics.swift; sourceTree = "<group>"; };
 		CF76FDFA29C573400063481C /* GradientBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBasics.swift; sourceTree = "<group>"; };
 		CF76FDFC29C57B330063481C /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
@@ -158,10 +162,12 @@
 				CF0A3B8429CF5E7E00EFDB96 /* TextEditorBasics.swift */,
 				CF0A3B8629CF668E00EFDB96 /* ToogleButtons.swift */,
 				CF05DFCA29D000B0005F58BE /* Pickers.swift */,
+				CF05DFCE29D013EA005F58BE /* DatePickerSwiftUI.swift */,
+				CF4BF39329D1D04A00C521A0 /* SliderSwiftUI.swift */,
 				CF05DFCC29D009EC005F58BE /* ColorPickers.swift */,
+				CF4BF39529D1D70D00C521A0 /* Steppers.swift */,
 				CF1D2E6829C4B1EA00373623 /* Assets.xcassets */,
 				CF1D2E6A29C4B1EA00373623 /* Preview Content */,
-				CF05DFCE29D013EA005F58BE /* DatePickerSwiftUI.swift */,
 			);
 			path = SwiftUIBasics;
 			sourceTree = "<group>";
@@ -254,11 +260,13 @@
 				CF321D1429CEE36E0092BD0F /* ContextMenu.swift in Sources */,
 				CFCC8B7229C60FB00085F43D /* Stacks.swift in Sources */,
 				CFCC8B7029C5F9030085F43D /* BackgroundsAndOverlays.swift in Sources */,
+				CF4BF39429D1D04A00C521A0 /* SliderSwiftUI.swift in Sources */,
 				CF1D2E6729C4B1E800373623 /* ContentView.swift in Sources */,
 				CF84B0C029C9F5B100B24795 /* Grids.swift in Sources */,
 				CFD285D929CCB07900095E82 /* NavigationBasics.swift in Sources */,
 				CFD285D729CC9CD500095E82 /* Popover.swift in Sources */,
 				CF05DFCF29D013EA005F58BE /* DatePickerSwiftUI.swift in Sources */,
+				CF4BF39629D1D70D00C521A0 /* Steppers.swift in Sources */,
 				CF321D1029CEBC060092BD0F /* AddDeleteEditMoveInList.swift in Sources */,
 				CF321D0F29CEBC060092BD0F /* Alerts.swift in Sources */,
 				CFF8418B29CB550F00601E40 /* AnimationCurveAndTiming.swift in Sources */,
