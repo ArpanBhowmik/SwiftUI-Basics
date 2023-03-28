@@ -23,6 +23,9 @@
 		CF321D1429CEE36E0092BD0F /* ContextMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF321D1329CEE36E0092BD0F /* ContextMenu.swift */; };
 		CF4BF39429D1D04A00C521A0 /* SliderSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4BF39329D1D04A00C521A0 /* SliderSwiftUI.swift */; };
 		CF4BF39629D1D70D00C521A0 /* Steppers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4BF39529D1D70D00C521A0 /* Steppers.swift */; };
+		CF4BF39829D1E3DA00C521A0 /* TabViewBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4BF39729D1E3DA00C521A0 /* TabViewBasics.swift */; };
+		CF4BF39A29D1E95B00C521A0 /* Pageview.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4BF39929D1E95B00C521A0 /* Pageview.swift */; };
+		CF4BF39C29D1EC2A00C521A0 /* OnAppearSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4BF39B29D1EC2A00C521A0 /* OnAppearSwiftUI.swift */; };
 		CF76FDF929C56BB90063481C /* ColorBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF76FDF829C56BB90063481C /* ColorBasics.swift */; };
 		CF76FDFB29C573400063481C /* GradientBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF76FDFA29C573400063481C /* GradientBasics.swift */; };
 		CF76FDFD29C57B330063481C /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF76FDFC29C57B330063481C /* Icons.swift */; };
@@ -69,6 +72,9 @@
 		CF321D1329CEE36E0092BD0F /* ContextMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenu.swift; sourceTree = "<group>"; };
 		CF4BF39329D1D04A00C521A0 /* SliderSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderSwiftUI.swift; sourceTree = "<group>"; };
 		CF4BF39529D1D70D00C521A0 /* Steppers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Steppers.swift; sourceTree = "<group>"; };
+		CF4BF39729D1E3DA00C521A0 /* TabViewBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewBasics.swift; sourceTree = "<group>"; };
+		CF4BF39929D1E95B00C521A0 /* Pageview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pageview.swift; sourceTree = "<group>"; };
+		CF4BF39B29D1EC2A00C521A0 /* OnAppearSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearSwiftUI.swift; sourceTree = "<group>"; };
 		CF76FDF829C56BB90063481C /* ColorBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorBasics.swift; sourceTree = "<group>"; };
 		CF76FDFA29C573400063481C /* GradientBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBasics.swift; sourceTree = "<group>"; };
 		CF76FDFC29C57B330063481C /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
@@ -163,7 +169,10 @@
 				CF0A3B8629CF668E00EFDB96 /* ToogleButtons.swift */,
 				CF05DFCA29D000B0005F58BE /* Pickers.swift */,
 				CF05DFCE29D013EA005F58BE /* DatePickerSwiftUI.swift */,
+				CF4BF39729D1E3DA00C521A0 /* TabViewBasics.swift */,
+				CF4BF39929D1E95B00C521A0 /* Pageview.swift */,
 				CF4BF39329D1D04A00C521A0 /* SliderSwiftUI.swift */,
+				CF4BF39B29D1EC2A00C521A0 /* OnAppearSwiftUI.swift */,
 				CF05DFCC29D009EC005F58BE /* ColorPickers.swift */,
 				CF4BF39529D1D70D00C521A0 /* Steppers.swift */,
 				CF1D2E6829C4B1EA00373623 /* Assets.xcassets */,
@@ -261,6 +270,8 @@
 				CFCC8B7229C60FB00085F43D /* Stacks.swift in Sources */,
 				CFCC8B7029C5F9030085F43D /* BackgroundsAndOverlays.swift in Sources */,
 				CF4BF39429D1D04A00C521A0 /* SliderSwiftUI.swift in Sources */,
+				CF4BF39C29D1EC2A00C521A0 /* OnAppearSwiftUI.swift in Sources */,
+				CF4BF39829D1E3DA00C521A0 /* TabViewBasics.swift in Sources */,
 				CF1D2E6729C4B1E800373623 /* ContentView.swift in Sources */,
 				CF84B0C029C9F5B100B24795 /* Grids.swift in Sources */,
 				CFD285D929CCB07900095E82 /* NavigationBasics.swift in Sources */,
@@ -271,6 +282,7 @@
 				CF321D0F29CEBC060092BD0F /* Alerts.swift in Sources */,
 				CFF8418B29CB550F00601E40 /* AnimationCurveAndTiming.swift in Sources */,
 				CFF8418D29CB56DA00601E40 /* Sheets.swift in Sources */,
+				CF4BF39A29D1E95B00C521A0 /* Pageview.swift in Sources */,
 				CF818BE529C8C518000BB322 /* Buttons.swift in Sources */,
 				CFF8418829CB550F00601E40 /* ExtractedFunctions.swift in Sources */,
 				CF76FDF929C56BB90063481C /* ColorBasics.swift in Sources */,
