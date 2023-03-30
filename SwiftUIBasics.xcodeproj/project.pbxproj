@@ -10,6 +10,7 @@
 		CF05DFCB29D000B0005F58BE /* Pickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF05DFCA29D000B0005F58BE /* Pickers.swift */; };
 		CF05DFCD29D009EC005F58BE /* ColorPickers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF05DFCC29D009EC005F58BE /* ColorPickers.swift */; };
 		CF05DFCF29D013EA005F58BE /* DatePickerSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF05DFCE29D013EA005F58BE /* DatePickerSwiftUI.swift */; };
+		CF09320929D5C860003D8C63 /* ObservableObjectAndStateObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF09320829D5C860003D8C63 /* ObservableObjectAndStateObject.swift */; };
 		CF0A3B8529CF5E7E00EFDB96 /* TextEditorBasics.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0A3B8429CF5E7E00EFDB96 /* TextEditorBasics.swift */; };
 		CF0A3B8729CF668E00EFDB96 /* ToogleButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF0A3B8629CF668E00EFDB96 /* ToogleButtons.swift */; };
 		CF1D2E6529C4B1E800373623 /* SwiftUIBasicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1D2E6429C4B1E800373623 /* SwiftUIBasicsApp.swift */; };
@@ -58,6 +59,7 @@
 		CF05DFCA29D000B0005F58BE /* Pickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pickers.swift; sourceTree = "<group>"; };
 		CF05DFCC29D009EC005F58BE /* ColorPickers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickers.swift; sourceTree = "<group>"; };
 		CF05DFCE29D013EA005F58BE /* DatePickerSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerSwiftUI.swift; sourceTree = "<group>"; };
+		CF09320829D5C860003D8C63 /* ObservableObjectAndStateObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObjectAndStateObject.swift; sourceTree = "<group>"; };
 		CF0A3B8429CF5E7E00EFDB96 /* TextEditorBasics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorBasics.swift; sourceTree = "<group>"; };
 		CF0A3B8629CF668E00EFDB96 /* ToogleButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToogleButtons.swift; sourceTree = "<group>"; };
 		CF1D2E6129C4B1E800373623 /* SwiftUIBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -175,6 +177,8 @@
 				CF4BF39B29D1EC2A00C521A0 /* OnAppearSwiftUI.swift */,
 				CF05DFCC29D009EC005F58BE /* ColorPickers.swift */,
 				CF4BF39529D1D70D00C521A0 /* Steppers.swift */,
+				CF09320829D5C860003D8C63 /* ObservableObjectAndStateObject.swift */,
+				CFF8418129CB550E00601E40 /* TransitionsBasics.swift */,
 				CF1D2E6829C4B1EA00373623 /* Assets.xcassets */,
 				CF1D2E6A29C4B1EA00373623 /* Preview Content */,
 			);
@@ -184,7 +188,6 @@
 		CF1D2E6A29C4B1EA00373623 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				CFF8418129CB550E00601E40 /* TransitionsBasics.swift */,
 				CF1D2E6B29C4B1EA00373623 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -294,6 +297,7 @@
 				CF0A3B8729CF668E00EFDB96 /* ToogleButtons.swift in Sources */,
 				CF0A3B8529CF5E7E00EFDB96 /* TextEditorBasics.swift in Sources */,
 				CF84B0C229CA10B100B24795 /* StateObserver.swift in Sources */,
+				CF09320929D5C860003D8C63 /* ObservableObjectAndStateObject.swift in Sources */,
 				CF1D2E7329C4B2B300373623 /* TextBasics.swift in Sources */,
 				CFD5546229CF470800329E14 /* TextFieldBasics.swift in Sources */,
 				CF76FDFB29C573400063481C /* GradientBasics.swift in Sources */,
